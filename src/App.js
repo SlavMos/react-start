@@ -15,7 +15,7 @@ const Header = () => {
     <div>
       <a href="">Home</a>
       <a href="">Page</a>
-      <a href=""></a>
+      <a href="">Test</a>
       <a href=""></a>
     </div>
   );
@@ -23,7 +23,7 @@ const Header = () => {
 
 const Technologies = () => {
   return (
-    <div>
+    <div className="ReactApp">
       <ul>
         <li>Facebook</li>
         <li>Instagram</li>
