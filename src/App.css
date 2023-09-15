@@ -1,3 +1,12 @@
+body {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  color: #000000;
+}
+
 .app-wrapper {
   display: grid;
   width: 1110px;
@@ -11,17 +20,31 @@
 
 .header {
   grid-area: h;
-  background-color: aqua;
+  background-color: #181c1c;
 }
 .header img {
   width: 50px;
 }
 .nav {
   grid-area: n;
-  background-color: blue;
+  background-color: #c9c9c9;
+  margin-top: 20px;
+}
+.nav div {
+  margin-bottom: 15px;
+  color: #181c1c;
+}
+.nav a {
+  color: #181c1c;
 }
 
 .content {
   grid-area: c;
-  background-color: blueviolet;
+  background-color: #858585;
+}
+
+.content__image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
 }
