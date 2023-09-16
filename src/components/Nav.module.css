@@ -1,0 +1,14 @@
+.nav {
+  grid-area: n;
+  background-color: #c9c9c9;
+  margin-top: 20px;
+}
+.item {
+  margin-bottom: 15px;
+}
+.link {
+  color: #181c1c;
+}
+.active {
+  color: aqua;
+}
