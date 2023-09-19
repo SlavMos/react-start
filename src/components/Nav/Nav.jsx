@@ -1,16 +1,16 @@
 import React from "react";
 import s from "./Nav.module.css";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <a className={`${s.active} ${s.link}`} href="">
+        <a className={`${s.active} ${s.link}`} href="/profile">
           Profile
         </a>
       </div>
       <div className={s.item}>
-        <a className={s.link} href="">
+        <a className={s.link} href="/dialogs">
           Message
         </a>
       </div>
