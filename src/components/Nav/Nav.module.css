@@ -2,13 +2,19 @@
   grid-area: n;
   background-color: #c9c9c9;
   /*margin-top: 20px;*/
+  padding: 20px;
 }
 .item {
   margin-bottom: 15px;
+  color: black;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
 }
-.link {
-  color: #181c1c;
-}
+
 .active {
-  color: aqua;
+  color: rgb(96, 145, 145);
+}
+
+.links {
+  margin-top: 20px;
 }
