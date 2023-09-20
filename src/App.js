@@ -6,6 +6,7 @@ import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import News from "./components/News/News";
+import Music from "./components/Music/Music";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
         <div className="app-wraper-content">
           <Routes>
             <Route path="Profile" element={<Profile />} />
-            <Route path="dialogs" element={<Dialogs />} />
+            <Route path="Dialogs" element={<Dialogs />} />
             <Route path="News" element={<News />} />
+            <Route path="Music" element={<Music />} />
           </Routes>
         </div>
       </div>
