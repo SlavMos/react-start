@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = (props) => {
   return (
-    <div>
+    <div className={s.Profile}>
       <div>
         <img
           className={s.image}

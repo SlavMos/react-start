@@ -1,5 +1,6 @@
 import React, { Profiler } from "react";
 import "./App.css";
+import "./Resset.css";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Profile from "./components/Profile/Profile";
@@ -13,7 +14,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
-        <Header />
+        <Header first="123123" second={12321321} third={[1, 2, 3, 4]} />
         <Nav />
         <div className="app-wraper-content">
           <Routes>
