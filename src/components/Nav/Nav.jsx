@@ -33,7 +33,7 @@ const Nav = () => {
           className={(navData) =>
             `${navData.isActive ? s.active : ""} ${s.item}`
           }
-          to="News"
+          to="/News"
         >
           News
         </NavLink>
@@ -43,7 +43,7 @@ const Nav = () => {
           className={(navData) =>
             `${navData.isActive ? s.active : ""} ${s.item}`
           }
-          to="Music"
+          to="/Music"
         >
           Music
         </NavLink>
@@ -53,7 +53,7 @@ const Nav = () => {
           className={(navData) =>
             `${navData.isActive ? s.active : ""} ${s.item}`
           }
-          to="Settings"
+          to="/Settings"
         >
           Settings
         </NavLink>
