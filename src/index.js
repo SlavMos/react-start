@@ -1,4 +1,4 @@
-import state from "./redux/state";
+import state, { subscribe } from "./redux/state";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -17,3 +17,4 @@ let renderEntireTree = (state) => {
 };
 
 renderEntireTree(state);
+subscribe(renderEntireTree);
